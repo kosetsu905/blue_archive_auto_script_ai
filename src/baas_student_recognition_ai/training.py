@@ -388,8 +388,13 @@ def opencv_replay(
     }
 
 
-def train(dataset_root: Path, output_dir: Path) -> dict:
+def train(
+    dataset_root: Path,
+    output_dir: Path,
+    dataset_revision: str | None = None,
+) -> dict:
     dataset_manifest = validate_dataset(dataset_root)
+    revision = dataset_revision or str(dataset_manifest["dataset_revision"])
     config = load_training_config()
     seed = int(config["seed"])
     seed_everything(seed)
@@ -429,7 +434,7 @@ def train(dataset_root: Path, output_dir: Path) -> dict:
         "identity_count": len(catalog.records),
         "prototype_count": len(gallery_ids),
         "identity_click_policy": "valid_global_top1",
-        "dataset_revision": dataset_manifest["dataset_revision"],
+        "dataset_revision": revision,
         "student_support": support,
     }
     (output_dir / "student_encoder.json").write_text(
@@ -445,7 +450,7 @@ def train(dataset_root: Path, output_dir: Path) -> dict:
     )
     report = {
         "seed": seed,
-        "dataset_revision": dataset_manifest["dataset_revision"],
+        "dataset_revision": revision,
         "source_counts": {"seed": len(seeds), "lesson": len(lesson)},
         "opencv_training_replay": replay,
     }

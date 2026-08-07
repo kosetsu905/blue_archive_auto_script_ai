@@ -36,8 +36,10 @@ def download_dataset() -> tuple[Path, str]:
             token=True,
         )
     )
-    info = json.loads((path / "manifest.json").read_text(encoding="utf-8"))
-    return path, str(info["dataset_revision"])
+    # Return the resolved revision from the checked-in configuration.  The
+    # dataset manifest describes the contents, but it is created before the
+    # first upload and therefore cannot contain its own Hugging Face commit.
+    return path, revision
 
 
 def validate_dataset(root: Path) -> dict:
@@ -175,4 +177,3 @@ def group_by_identity(portraits: Iterable[Portrait]) -> dict[str, list[Portrait]
     for portrait in portraits:
         groups.setdefault(portrait.name, []).append(portrait)
     return groups
-
