@@ -24,6 +24,17 @@ Download the pinned private dataset:
 .\.venv\Scripts\python.exe scripts\download_dataset.py
 ```
 
+The repository owner first builds and uploads the private snapshot locally:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\prepare_hf_dataset.py --baas-root D:\BlueArchiveAutoScript_v1.4.3_win_x86_64_full_env --output .\dataset
+.\.venv\Scripts\hf.exe upload kosetsu905/baas-student-recognition-data .\dataset . --repo-type dataset --commit-message "Upload student recognition dataset v1"
+.\.venv\Scripts\python.exe scripts\pin_dataset_revision.py
+```
+
+Commit the resulting pinned `configs/dataset.json` revision before training.
+Never commit `dataset/` or an authentication token.
+
 Train and export the MobileNetV3-Small encoder and prototype gallery:
 
 ```powershell
@@ -53,4 +64,3 @@ rights to third-party assets.
 BAAS uses deterministic 1280x720-relative card/avatar geometry and simple
 OpenCV frame analysis.  MobileNetV3-Small is used only for student identity.
 YOLO is not part of the runtime or this training pipeline.
-

@@ -100,6 +100,47 @@ def normalized_student_view(
     return normalized.transpose(2, 0, 1).astype(np.float32)
 
 
+def _portrait_views(crop: np.ndarray) -> list[np.ndarray]:
+    """Match the deterministic inner translations used by the BAAS runtime."""
+    height, width = crop.shape[:2]
+    x1 = min(3, max(0, width - 1))
+    y1 = min(3, max(0, height - 1))
+    x2 = max(x1 + 1, width - max(5, round(width * 0.12)))
+    y2 = max(y1 + 1, height - max(5, round(height * 0.12)))
+    inner = crop[y1:y2, x1:x2]
+    inner_height, inner_width = inner.shape[:2]
+    views = [inner]
+    for ratio, x_ratio, y_ratio in (
+        (0.86, 0.0, 0.0),
+        (0.86, 1.0, 0.0),
+        (0.78, 0.5, 0.0),
+        (0.78, 0.5, 1.0),
+    ):
+        view_width = max(8, round(inner_width * ratio))
+        view_height = max(8, round(inner_height * ratio))
+        offset_x = round((inner_width - view_width) * x_ratio)
+        offset_y = round((inner_height - view_height) * y_ratio)
+        views.append(inner[offset_y:offset_y + view_height, offset_x:offset_x + view_width])
+    return views
+
+
+def runtime_student_views(crop: np.ndarray) -> np.ndarray:
+    views = []
+    for view in _portrait_views(crop):
+        height, width = view.shape[:2]
+        scale = min(96 / width, 96 / height)
+        target = (max(1, round(width * scale)), max(1, round(height * scale)))
+        interpolation = cv2.INTER_AREA if scale < 1 else cv2.INTER_CUBIC
+        resized = cv2.resize(view, target, interpolation=interpolation)
+        canvas = np.full((96, 96, 3), 220, dtype=np.uint8)
+        x = (96 - target[0]) // 2
+        y = (96 - target[1]) // 2
+        canvas[y:y + target[1], x:x + target[0]] = resized
+        rgb = cv2.cvtColor(canvas, cv2.COLOR_BGR2RGB).astype(np.float32) / 255.0
+        views.append(((rgb - MEAN) / STD).transpose(2, 0, 1).astype(np.float32))
+    return np.stack(views)
+
+
 class IdentityBalancedDataset(Dataset):
     def __init__(
         self,
@@ -236,7 +277,9 @@ def _batch_embeddings(
     batch_size: int = 128,
 ) -> np.ndarray:
     inputs = [
-        normalized_student_view(row.image, False, random.Random(0))
+        runtime_student_views(row.image)[0]
+        if row.source.startswith("lesson:")
+        else normalized_student_view(row.image, False, random.Random(0))
         for row in portraits
     ]
     output = []
@@ -313,11 +356,15 @@ def opencv_replay(
     failures = []
     started = time.perf_counter()
     for portrait in portraits:
-        view = normalized_student_view(portrait.image, False, random.Random(0))[None]
-        net.setInput(view)
-        embedding = np.asarray(net.forward(), dtype=np.float32)[0]
-        embedding /= max(float(np.linalg.norm(embedding)), 1e-12)
-        similarities = embedding @ gallery_embeddings.T
+        views = (
+            runtime_student_views(portrait.image)
+            if portrait.source.startswith("lesson:")
+            else normalized_student_view(portrait.image, False, random.Random(0))[None]
+        )
+        net.setInput(views)
+        embeddings = np.asarray(net.forward(), dtype=np.float32)
+        embeddings /= np.maximum(np.linalg.norm(embeddings, axis=1, keepdims=True), 1e-12)
+        similarities = np.max(embeddings @ gallery_embeddings.T, axis=0)
         best_by_id: dict[str, float] = {}
         for student_id, score in zip(gallery_ids, similarities):
             best_by_id[str(student_id)] = max(best_by_id.get(str(student_id), -1.0), float(score))

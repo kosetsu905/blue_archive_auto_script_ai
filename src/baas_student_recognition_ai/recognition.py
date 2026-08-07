@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 
 from .catalog import StudentCatalog
-from .training import normalized_student_view
+from .training import runtime_student_views
 
 
 @dataclass(frozen=True)
@@ -37,15 +37,13 @@ class OpenCVStudentRecognizer:
         self.catalog = catalog
 
     def identify(self, crop: np.ndarray) -> Prediction:
-        import random
-
-        view = normalized_student_view(crop, False, random.Random(0))[None]
-        self.net.setInput(view)
-        embedding = np.asarray(self.net.forward(), dtype=np.float32).reshape(-1)
-        if embedding.shape[0] != self.embeddings.shape[1]:
+        views = runtime_student_views(crop)
+        self.net.setInput(views)
+        embeddings = np.asarray(self.net.forward(), dtype=np.float32)
+        if embeddings.ndim != 2 or embeddings.shape[1] != self.embeddings.shape[1]:
             raise ValueError("Encoder and gallery embedding widths differ")
-        embedding /= max(float(np.linalg.norm(embedding)), 1e-12)
-        scores = embedding @ self.embeddings.T
+        embeddings /= np.maximum(np.linalg.norm(embeddings, axis=1, keepdims=True), 1e-12)
+        scores = np.max(embeddings @ self.embeddings.T, axis=0)
         best_by_id: dict[str, float] = {}
         for student_id, score in zip(self.ids, scores):
             best_by_id[student_id] = max(best_by_id.get(student_id, -1.0), float(score))

@@ -31,3 +31,10 @@ def test_gray_and_pink_frames_are_distinguished():
     pink[:, -5:] = (180, 40, 240)
     assert not layout.affection_eligible(gray)
     assert layout.affection_eligible(pink)
+
+
+def test_color_on_only_one_edge_is_not_a_pink_frame():
+    layout = FixedLessonLayout()
+    portrait = np.full((58, 62, 3), 120, dtype=np.uint8)
+    portrait[:, -2:] = (180, 40, 240)
+    assert not layout.affection_eligible(portrait)

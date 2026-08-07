@@ -86,23 +86,27 @@ class FixedLessonLayout:
     def affection_eligible(patch: np.ndarray) -> bool:
         """Classify the frame, not the portrait artwork, as pink or gray."""
         hsv = cv2.cvtColor(patch, cv2.COLOR_BGR2HSV)
-        height, width = patch.shape[:2]
-        frame = np.zeros((height, width), dtype=np.uint8)
-        frame[:5, :] = 1
-        frame[-5:, :] = 1
-        frame[:, :5] = 1
-        frame[:, -5:] = 1
-        pixels = hsv[frame.astype(bool)]
-        if len(pixels) == 0:
-            return False
-        pink = (
-            (pixels[:, 0] >= 145)
-            & (pixels[:, 0] <= 179)
-            & (pixels[:, 1] >= 65)
-            & (pixels[:, 2] >= 140)
+        # Ignore rounded corners so one coloured artwork edge cannot leak into
+        # the two perpendicular edge measurements.
+        sides = (
+            hsv[:2, 3:-3, :],
+            hsv[-2:, 3:-3, :],
+            hsv[3:-3, :2, :],
+            hsv[3:-3, -2:, :],
         )
-        colorful = pixels[:, 1] >= 55
-        return float(pink.mean()) >= 0.025 or float(colorful.mean()) >= 0.18
+        pink_sides = 0
+        for side in sides:
+            pixels = side.reshape(-1, 3)
+            pink = (
+                (pixels[:, 0] >= 145)
+                & (pixels[:, 0] <= 179)
+                & (pixels[:, 1] >= 65)
+                & (pixels[:, 2] >= 140)
+            )
+            pink_sides += float(pink.mean()) >= 0.005
+        # Portrait artwork can touch one edge.  A real pink frame is visible on
+        # at least two independent sides of an available card.
+        return pink_sides >= 2
 
     def locate(self, image: np.ndarray) -> list[AvatarSlot]:
         normalized = self.normalize(image)
@@ -125,4 +129,3 @@ class FixedLessonLayout:
                         )
                     )
         return result
-
