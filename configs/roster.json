@@ -1,0 +1,1354 @@
+{
+  "student_names": [
+    {
+      "CN_name": "日和(泳装)",
+      "Global_name": "Hiyori (Swimsuit)",
+      "JP_name": "ヒヨリ(水着)"
+    },
+    {
+      "CN_name": "纱织(泳装)",
+      "Global_name": "Saori (Swimsuit)",
+      "JP_name": "サオリ(水着)"
+    },
+    {
+      "CN_name": "亚津子(泳装)",
+      "Global_name": "Atsuko (Swimsuit)",
+      "JP_name": "アツコ(水着)"
+    },
+    {
+      "CN_name": "白子＊恐怖",
+      "Global_name": "Shiroko Terror",
+      "JP_name": "シロコ＊テラー"
+    },
+    {
+      "CN_name": "星野(临战)",
+      "Global_name": "Hoshino (Battle)",
+      "JP_name": "ホシノ(臨戦)"
+    },
+    {
+      "CN_name": "萌绘(泳装)",
+      "Global_name": "Moe (Swimsuit)",
+      "JP_name": "モエ(水着)"
+    },
+    {
+      "CN_name": "桐乃(泳装)",
+      "Global_name": "Kirino (Swimsuit)",
+      "JP_name": "キリノ(水着)"
+    },
+    {
+      "CN_name": "吹雪(泳装)",
+      "Global_name": "Fubuki (Swimsuit)",
+      "JP_name": "フブキ(水着)"
+    },
+    {
+      "CN_name": "叶渚(泳装)",
+      "Global_name": "Kanna (Swimsuit)",
+      "JP_name": "カンナ(水着)"
+    },
+    {
+      "CN_name": "芹香(泳装)",
+      "Global_name": "Serika (Swimsuit)",
+      "JP_name": "セリカ(水着)"
+    },
+    {
+      "CN_name": "绿(女仆)",
+      "Global_name": "Midori (Maid)",
+      "JP_name": "ミドリ(メイド)"
+    },
+    {
+      "CN_name": "桃井(女仆)",
+      "Global_name": "Momoi (Maid)",
+      "JP_name": "モモイ(メイド)"
+    },
+    {
+      "CN_name": "绮罗罗",
+      "Global_name": "Kirara",
+      "JP_name": "キララ"
+    },
+    {
+      "CN_name": "爱莉(乐队)",
+      "Global_name": "Airi (Band)",
+      "JP_name": "アイリ(バンド)"
+    },
+    {
+      "CN_name": "好美(乐队)",
+      "Global_name": "Yoshimi (Band)",
+      "JP_name": "ヨシミ(バンド)"
+    },
+    {
+      "CN_name": "和纱(乐队)",
+      "Global_name": "Kazusa (Band)",
+      "JP_name": "カズサ(バンド)"
+    },
+    {
+      "CN_name": "椿(导游)",
+      "Global_name": "Tsubaki (Guide)",
+      "JP_name": "ツバキ(ガイド)"
+    },
+    {
+      "CN_name": "海香",
+      "Global_name": "Umika",
+      "JP_name": "ウミカ"
+    },
+    {
+      "CN_name": "明里(正月)",
+      "Global_name": "Akari (New Year)",
+      "JP_name": "アカリ(正月)"
+    },
+    {
+      "CN_name": "阿露(礼服)",
+      "Global_name": "Aru (Dress)",
+      "JP_name": "アル(ドレス)"
+    },
+    {
+      "CN_name": "佳代子(礼服)",
+      "Global_name": "Kayoko (Dress)",
+      "JP_name": "カヨコ(ドレス)"
+    },
+    {
+      "CN_name": "日奈(礼服)",
+      "Global_name": "Hina (Dress)",
+      "JP_name": "ヒナ(ドレス)"
+    },
+    {
+      "CN_name": "真琴",
+      "Global_name": "Makoto",
+      "JP_name": "マコト"
+    },
+    {
+      "CN_name": "伊吹",
+      "Global_name": "Ibuki",
+      "JP_name": "イブキ"
+    },
+    {
+      "CN_name": "亚子(礼服)",
+      "Global_name": "Ako (Dress)",
+      "JP_name": "アコ(ドレス)"
+    },
+    {
+      "CN_name": "晴(露营)",
+      "Global_name": "Hare (Camp)",
+      "JP_name": "ハレ(キャンプ)"
+    },
+    {
+      "CN_name": "小玉(露营)",
+      "Global_name": "Kotama (Camp)",
+      "JP_name": "コタマ(キャンプ)"
+    },
+    {
+      "CN_name": "艾米(泳装)",
+      "Global_name": "Eimi (Swimsuit)",
+      "JP_name": "エイミ(水着)"
+    },
+    {
+      "CN_name": "桔梗",
+      "Global_name": "Kikyou",
+      "JP_name": "キキョウ"
+    },
+    {
+      "CN_name": "莲华",
+      "Global_name": "Renge",
+      "JP_name": "レンゲ"
+    },
+    {
+      "CN_name": "紫草",
+      "Global_name": "Yukari",
+      "JP_name": "ユカリ"
+    },
+    {
+      "CN_name": "佐天泪子",
+      "Global_name": "Saten Ruiko",
+      "JP_name": "佐天涙子"
+    },
+    {
+      "CN_name": "食蜂操祈",
+      "Global_name": "Shokuhou Misaki",
+      "JP_name": "食蜂操祈"
+    },
+    {
+      "CN_name": "御坂美琴",
+      "Global_name": "Misaka Mikoto",
+      "JP_name": "御坂美琴"
+    },
+    {
+      "CN_name": "时雨(温泉)",
+      "Global_name": "Shigure (Hot Spring)",
+      "JP_name": "シグレ(温泉)"
+    },
+    {
+      "CN_name": "霞",
+      "Global_name": "Kasumi",
+      "JP_name": "カスミ"
+    },
+    {
+      "CN_name": "一花",
+      "Global_name": "Ichika",
+      "JP_name": "イチカ"
+    },
+    {
+      "CN_name": "晴奈(运动服)",
+      "Global_name": "Haruna (Track)",
+      "JP_name": "ハルナ(体操服)"
+    },
+    {
+      "CN_name": "琴里(应援团)",
+      "Global_name": "Kotori (Cheer Squad)",
+      "JP_name": "コトリ(応援団)"
+    },
+    {
+      "CN_name": "红叶",
+      "Global_name": "Momiji",
+      "JP_name": "モミジ"
+    },
+    {
+      "CN_name": "芽留",
+      "Global_name": "Meru",
+      "JP_name": "メル"
+    },
+    {
+      "CN_name": "三森(泳装)",
+      "Global_name": "Mimori (Swimsuit)",
+      "JP_name": "ミモリ(水着)"
+    },
+    {
+      "CN_name": "花子(泳装)",
+      "Global_name": "Hanako (Swimsuit)",
+      "JP_name": "ハナコ(水着)"
+    },
+    {
+      "CN_name": "小春(泳装)",
+      "Global_name": "Koharu (Swimsuit)",
+      "JP_name": "コハル(水着)"
+    },
+    {
+      "CN_name": "日向(泳装)",
+      "Global_name": "Hinata (Swimsuit)",
+      "JP_name": "ヒナタ(水着)"
+    },
+    {
+      "CN_name": "忧(泳装)",
+      "Global_name": "Ui (Swimsuit)",
+      "JP_name": "ウイ(水着)"
+    },
+    {
+      "CN_name": "白子(泳装)",
+      "Global_name": "Shiroko (Swimsuit)",
+      "JP_name": "シロコ(水着)"
+    },
+    {
+      "CN_name": "美游(泳装)",
+      "Global_name": "Miyu (Swimsuit)",
+      "JP_name": "ミユ(水着)"
+    },
+    {
+      "CN_name": "咲(泳装)",
+      "Global_name": "Saki (Swimsuit)",
+      "JP_name": "サキ(水着)"
+    },
+    {
+      "CN_name": "宫子(泳装)",
+      "Global_name": "Miyako (Swimsuit)",
+      "JP_name": "ミヤコ(水着)"
+    },
+    {
+      "CN_name": "实里",
+      "Global_name": "Minori",
+      "JP_name": "ミノリ"
+    },
+    {
+      "CN_name": "弥奈",
+      "Global_name": "Mina",
+      "JP_name": "ミナ"
+    },
+    {
+      "CN_name": "瑠美",
+      "Global_name": "Rumi",
+      "JP_name": "ルミ"
+    },
+    {
+      "CN_name": "玲纱",
+      "Global_name": "Reisa",
+      "JP_name": "レイサ"
+    },
+    {
+      "CN_name": "柚子(女仆)",
+      "Global_name": "Yuzu (Maid)",
+      "JP_name": "ユズ(メイド)"
+    },
+    {
+      "CN_name": "时(邦妮)",
+      "Global_name": "Toki (Bunny)",
+      "JP_name": "トキ(バニーガール)"
+    },
+    {
+      "CN_name": "爱丽丝(女仆)",
+      "Global_name": "Aris (Maid)",
+      "JP_name": "アリス(メイド)"
+    },
+    {
+      "CN_name": "果穗",
+      "Global_name": "Kaho",
+      "JP_name": "カホ"
+    },
+    {
+      "CN_name": "春香(新年)",
+      "Global_name": "Haruka (New Year)",
+      "JP_name": "ハルカ(正月)"
+    },
+    {
+      "CN_name": "佳代子(新年)",
+      "Global_name": "Kayoko (New Year)",
+      "JP_name": "カヨコ(正月)"
+    },
+    {
+      "CN_name": "小雪",
+      "Global_name": "Koyuki",
+      "JP_name": "コユキ"
+    },
+    {
+      "CN_name": "渚",
+      "Global_name": "Nagisa",
+      "JP_name": "ナギサ"
+    },
+    {
+      "CN_name": "时",
+      "Global_name": "Toki",
+      "JP_name": "トキ"
+    },
+    {
+      "CN_name": "樱子",
+      "Global_name": "Sakurako",
+      "JP_name": "サクラコ"
+    },
+    {
+      "CN_name": "樱子(偶像)",
+      "Global_name": "Sakurako (Pop Idol)",
+      "JP_name": "サクラコ(アイドル)"
+    },
+    {
+      "CN_name": "康娜",
+      "Global_name": "Kanna",
+      "JP_name": "カンナ"
+    },
+    {
+      "CN_name": "惠",
+      "Global_name": "Megu",
+      "JP_name": "メグ"
+    },
+    {
+      "CN_name": "未花",
+      "Global_name": "Mika",
+      "JP_name": "ミカ"
+    },
+    {
+      "CN_name": "美祢",
+      "Global_name": "Mine",
+      "JP_name": "ミネ"
+    },
+    {
+      "CN_name": "纯子(新年)",
+      "Global_name": "Junko (New Year)",
+      "JP_name": "ジュンコ(正月)"
+    },
+    {
+      "CN_name": "风香(新年)",
+      "Global_name": "Fuuka (New Year)",
+      "JP_name": "フウカ(正月)"
+    },
+    {
+      "CN_name": "晴奈(新年)",
+      "Global_name": "Haruna (New Year)",
+      "JP_name": "ハルナ(正月)"
+    },
+    {
+      "CN_name": "花江(圣诞)",
+      "Global_name": "Hanae (Christmas)",
+      "JP_name": "ハナエ(クリスマス)"
+    },
+    {
+      "CN_name": "芹娜(圣诞)",
+      "Global_name": "Serina (Christmas)",
+      "JP_name": "セリナ(クリスマス)"
+    },
+    {
+      "CN_name": "时雨",
+      "Global_name": "Shigure",
+      "JP_name": "シグレ"
+    },
+    {
+      "CN_name": "日鞠",
+      "Global_name": "Himari",
+      "JP_name": "ヒマリ"
+    },
+    {
+      "CN_name": "莲见(体操服)",
+      "Global_name": "Hasumi (Track)",
+      "JP_name": "ハスミ(体操服)"
+    },
+    {
+      "CN_name": "玛丽(体操服)",
+      "Global_name": "Mari (Track)",
+      "JP_name": "マリー(体操服)"
+    },
+    {
+      "CN_name": "优香(体操服)",
+      "Global_name": "Yuuka (Track)",
+      "JP_name": "ユウカ(体操服)"
+    },
+    {
+      "CN_name": "茜(邦妮)",
+      "Global_name": "Akane (Bunny)",
+      "JP_name": "アカネ(バニーガール)"
+    },
+    {
+      "CN_name": "响(应援团)",
+      "Global_name": "Hibiki (Cheer Squad)",
+      "JP_name": "ヒビキ(応援団)"
+    },
+    {
+      "CN_name": "诺亚",
+      "Global_name": "Noa",
+      "JP_name": "ノア"
+    },
+    {
+      "CN_name": "诺亚(睡衣)",
+      "Global_name": "Noa (Pajamas)",
+      "JP_name": "ノア(パジャマ)"
+    },
+    {
+      "CN_name": "歌原(应援团)",
+      "Global_name": "Utaha (Cheer Squad)",
+      "JP_name": "ウタハ(応援団)"
+    },
+    {
+      "CN_name": "心奈",
+      "Global_name": "Kokona",
+      "JP_name": "ココナ"
+    },
+    {
+      "CN_name": "和纱",
+      "Global_name": "Kazusa",
+      "JP_name": "カズサ"
+    },
+    {
+      "CN_name": "萌绘",
+      "Global_name": "Moe",
+      "JP_name": "モエ"
+    },
+    {
+      "CN_name": "纱织",
+      "Global_name": "Saori",
+      "JP_name": "サオリ"
+    },
+    {
+      "CN_name": "千世(泳装)",
+      "Global_name": "Chise (Swimsuit)",
+      "JP_name": "チセ(水着)"
+    },
+    {
+      "CN_name": "泉奈(泳装)",
+      "Global_name": "Izuna (Swimsuit)",
+      "JP_name": "イズナ(水着)"
+    },
+    {
+      "CN_name": "静子(泳装)",
+      "Global_name": "Shizuko (Swimsuit)",
+      "JP_name": "シズコ(水着)"
+    },
+    {
+      "CN_name": "星野(泳装)",
+      "Global_name": "Hoshino (Swimsuit)",
+      "JP_name": "ホシノ(水着)"
+    },
+    {
+      "CN_name": "绫音(泳装)",
+      "Global_name": "Ayane (Swimsuit)",
+      "JP_name": "アヤネ(水着)"
+    },
+    {
+      "CN_name": "野宫(泳装)",
+      "Global_name": "Nonomi (Swimsuit)",
+      "JP_name": "ノノミ(水着)"
+    },
+    {
+      "CN_name": "若藻(泳装)",
+      "Global_name": "Wakamo (Swimsuit)",
+      "JP_name": "ワカモ(水着)"
+    },
+    {
+      "CN_name": "亚津子",
+      "Global_name": "Atsuko",
+      "JP_name": "アツコ"
+    },
+    {
+      "CN_name": "日和",
+      "Global_name": "Hiyori",
+      "JP_name": "ヒヨリ"
+    },
+    {
+      "CN_name": "美咲",
+      "Global_name": "Misaki",
+      "JP_name": "ミサキ"
+    },
+    {
+      "CN_name": "月咏",
+      "Global_name": "Tsukuyo",
+      "JP_name": "ツクヨ"
+    },
+    {
+      "CN_name": "满",
+      "Global_name": "Michiru",
+      "JP_name": "ミチル"
+    },
+    {
+      "CN_name": "伊吕波",
+      "Global_name": "Iroha",
+      "JP_name": "イロハ"
+    },
+    {
+      "CN_name": "枫",
+      "Global_name": "Kaede",
+      "JP_name": "カエデ"
+    },
+    {
+      "CN_name": "美游",
+      "Global_name": "Miyu",
+      "JP_name": "ミユ"
+    },
+    {
+      "CN_name": "咲",
+      "Global_name": "Saki",
+      "JP_name": "サキ"
+    },
+    {
+      "CN_name": "宫子",
+      "Global_name": "Miyako",
+      "JP_name": "ミヤコ"
+    },
+    {
+      "CN_name": "真里奈",
+      "Global_name": "Marina",
+      "JP_name": "マリナ"
+    },
+    {
+      "CN_name": "真里奈(旗袍)",
+      "Global_name": "Marina (Qipao)",
+      "JP_name": "マリナ(チーパオ)"
+    },
+    {
+      "CN_name": "日向",
+      "Global_name": "Hinata",
+      "JP_name": "ヒナタ"
+    },
+    {
+      "CN_name": "忧",
+      "Global_name": "Ui",
+      "JP_name": "ウイ"
+    },
+    {
+      "CN_name": "三森",
+      "Global_name": "Mimori",
+      "JP_name": "ミモリ"
+    },
+    {
+      "CN_name": "千寻",
+      "Global_name": "Chihiro",
+      "JP_name": "チヒロ"
+    },
+    {
+      "CN_name": "濑名",
+      "Global_name": "Sena",
+      "JP_name": "セナ"
+    },
+    {
+      "CN_name": "吹雪",
+      "Global_name": "Fubuki",
+      "JP_name": "フブキ"
+    },
+    {
+      "CN_name": "若藻",
+      "Global_name": "Wakamo",
+      "JP_name": "ワカモ"
+    },
+    {
+      "CN_name": "芹香(新年)",
+      "Global_name": "Serika (New Year)",
+      "JP_name": "セリカ(正月)"
+    },
+    {
+      "CN_name": "睦月(新年)",
+      "Global_name": "Mutsuki (New Year)",
+      "JP_name": "ムツキ(正月)"
+    },
+    {
+      "CN_name": "爱露(新年)",
+      "Global_name": "Aru (New Year)",
+      "JP_name": "アル(正月)"
+    },
+    {
+      "CN_name": "和香(温泉)",
+      "Global_name": "Nodoka (Hot Spring)",
+      "JP_name": "ノドカ(温泉)"
+    },
+    {
+      "CN_name": "巴",
+      "Global_name": "Tomoe",
+      "JP_name": "トモエ"
+    },
+    {
+      "CN_name": "千夏(温泉)",
+      "Global_name": "Chinatsu (Hot Spring)",
+      "JP_name": "チナツ(温泉)"
+    },
+    {
+      "CN_name": "切里诺(温泉)",
+      "Global_name": "Cherino (Hot Spring)",
+      "JP_name": "チェリノ(温泉)"
+    },
+    {
+      "CN_name": "亚子",
+      "Global_name": "Ako",
+      "JP_name": "アコ"
+    },
+    {
+      "CN_name": "初音未来",
+      "Global_name": "Hatsune Miku",
+      "JP_name": "初音ミク"
+    },
+    {
+      "CN_name": "玛丽",
+      "Global_name": "Mari",
+      "JP_name": "マリー"
+    },
+    {
+      "CN_name": "夏",
+      "Global_name": "Natsu",
+      "JP_name": "ナツ"
+    },
+    {
+      "CN_name": "明日奈(邦妮)",
+      "Global_name": "Asuna (Bunny)",
+      "JP_name": "アスナ(バニーガール)"
+    },
+    {
+      "CN_name": "明日奈(制服)",
+      "Global_name": "Asuna (School)",
+      "JP_name": "アスナ(制服)"
+    },
+    {
+      "CN_name": "花凛(制服)",
+      "Global_name": "Karin (School)",
+      "JP_name": "カリン(制服)"
+    },
+    {
+      "CN_name": "妮露(制服)",
+      "Global_name": "Neru (School)",
+      "JP_name": "ネル(制服)"
+    },
+    {
+      "CN_name": "花凛(邦妮)",
+      "Global_name": "Karin (Bunny)",
+      "JP_name": "カリン(バニーガール)"
+    },
+    {
+      "CN_name": "妮露(邦妮)",
+      "Global_name": "Neru (Bunny)",
+      "JP_name": "ネル(バニーガール)"
+    },
+    {
+      "CN_name": "纱绫(便服)",
+      "Global_name": "Saya (Casual)",
+      "JP_name": "サヤ(私服)"
+    },
+    {
+      "CN_name": "桐乃",
+      "Global_name": "Kirino",
+      "JP_name": "キリノ"
+    },
+    {
+      "CN_name": "瞬(小)",
+      "Global_name": "Shun (Small)",
+      "JP_name": "シュン(幼女)"
+    },
+    {
+      "CN_name": "白子(骑行)",
+      "Global_name": "Shiroko (Cycling)",
+      "JP_name": "シロコ(ライディング)"
+    },
+    {
+      "CN_name": "泉(泳装)",
+      "Global_name": "Izumi (Swimsuit)",
+      "JP_name": "イズミ(水着)"
+    },
+    {
+      "CN_name": "伊织(泳装)",
+      "Global_name": "Iori (Swimsuit)",
+      "JP_name": "イオリ(水着)"
+    },
+    {
+      "CN_name": "日奈(泳装)",
+      "Global_name": "Hina (Swimsuit)",
+      "JP_name": "ヒナ(水着)"
+    },
+    {
+      "CN_name": "日富美(泳装)",
+      "Global_name": "Hifumi (Swimsuit)",
+      "JP_name": "ヒフミ(水着)"
+    },
+    {
+      "CN_name": "鹤城(泳装)",
+      "Global_name": "Tsurugi (Swimsuit)",
+      "JP_name": "ツルギ(水着)"
+    },
+    {
+      "CN_name": "真白(泳装)",
+      "Global_name": "Mashiro (Swimsuit)",
+      "JP_name": "マシロ(水着)"
+    },
+    {
+      "CN_name": "梓(泳装)",
+      "Global_name": "Azusa (Swimsuit)",
+      "JP_name": "アズサ(水着)"
+    },
+    {
+      "CN_name": "小春",
+      "Global_name": "Koharu",
+      "JP_name": "コハル"
+    },
+    {
+      "CN_name": "花子",
+      "Global_name": "Hanako",
+      "JP_name": "ハナコ"
+    },
+    {
+      "CN_name": "梓",
+      "Global_name": "Azusa",
+      "JP_name": "アズサ"
+    },
+    {
+      "CN_name": "柚子",
+      "Global_name": "Yuzu",
+      "JP_name": "ユズ"
+    },
+    {
+      "CN_name": "和香",
+      "Global_name": "Nodoka",
+      "JP_name": "ノドカ"
+    },
+    {
+      "CN_name": "切里诺",
+      "Global_name": "Cherino",
+      "JP_name": "チェリノ"
+    },
+    {
+      "CN_name": "桃",
+      "Global_name": "Momoi",
+      "JP_name": "モモイ"
+    },
+    {
+      "CN_name": "绿",
+      "Global_name": "Midori",
+      "JP_name": "ミドリ"
+    },
+    {
+      "CN_name": "爱丽丝",
+      "Global_name": "Aris",
+      "JP_name": "アリス"
+    },
+    {
+      "CN_name": "静子",
+      "Global_name": "Shizuko",
+      "JP_name": "シズコ"
+    },
+    {
+      "CN_name": "泉奈",
+      "Global_name": "Izuna",
+      "JP_name": "イズナ"
+    },
+    {
+      "CN_name": "真白",
+      "Global_name": "Mashiro",
+      "JP_name": "マシロ"
+    },
+    {
+      "CN_name": "好美",
+      "Global_name": "Yoshimi",
+      "JP_name": "ヨシミ"
+    },
+    {
+      "CN_name": "志美子",
+      "Global_name": "Shimiko",
+      "JP_name": "シミコ"
+    },
+    {
+      "CN_name": "芹娜",
+      "Global_name": "Serina",
+      "JP_name": "セリナ"
+    },
+    {
+      "CN_name": "朱莉",
+      "Global_name": "Juri",
+      "JP_name": "ジュリ"
+    },
+    {
+      "CN_name": "小玉",
+      "Global_name": "Kotama",
+      "JP_name": "コタマ"
+    },
+    {
+      "CN_name": "千夏",
+      "Global_name": "Chinatsu",
+      "JP_name": "チナツ"
+    },
+    {
+      "CN_name": "绫音",
+      "Global_name": "Ayane",
+      "JP_name": "アヤネ"
+    },
+    {
+      "CN_name": "歌原",
+      "Global_name": "Utaha",
+      "JP_name": "ウタハ"
+    },
+    {
+      "CN_name": "晴",
+      "Global_name": "Hare",
+      "JP_name": "ハレ"
+    },
+    {
+      "CN_name": "花江",
+      "Global_name": "Hanae",
+      "JP_name": "ハナエ"
+    },
+    {
+      "CN_name": "风香",
+      "Global_name": "Fuuka",
+      "JP_name": "フウカ"
+    },
+    {
+      "CN_name": "爱理",
+      "Global_name": "Airi",
+      "JP_name": "アイリ"
+    },
+    {
+      "CN_name": "纱绫",
+      "Global_name": "Saya",
+      "JP_name": "サヤ"
+    },
+    {
+      "CN_name": "花凛",
+      "Global_name": "Karin",
+      "JP_name": "カリン"
+    },
+    {
+      "CN_name": "响",
+      "Global_name": "Hibiki",
+      "JP_name": "ヒビキ"
+    },
+    {
+      "CN_name": "菲娜",
+      "Global_name": "Pina",
+      "JP_name": "フィーナ"
+    },
+    {
+      "CN_name": "铃美",
+      "Global_name": "Suzumi",
+      "JP_name": "スズミ"
+    },
+    {
+      "CN_name": "琴里",
+      "Global_name": "Kotori",
+      "JP_name": "コトリ"
+    },
+    {
+      "CN_name": "明日奈",
+      "Global_name": "Asuna",
+      "JP_name": "アスナ"
+    },
+    {
+      "CN_name": "春香",
+      "Global_name": "Haruka",
+      "JP_name": "ハルカ"
+    },
+    {
+      "CN_name": "优香",
+      "Global_name": "Yuuka",
+      "JP_name": "ユウカ"
+    },
+    {
+      "CN_name": "椿",
+      "Global_name": "Tsubaki",
+      "JP_name": "ツバキ"
+    },
+    {
+      "CN_name": "芹香",
+      "Global_name": "Serika",
+      "JP_name": "セリカ"
+    },
+    {
+      "CN_name": "纯子",
+      "Global_name": "Junko",
+      "JP_name": "ジュンコ"
+    },
+    {
+      "CN_name": "睦月",
+      "Global_name": "Mutsuki",
+      "JP_name": "ムツキ"
+    },
+    {
+      "CN_name": "佳代子",
+      "Global_name": "Kayoko",
+      "JP_name": "カヨコ"
+    },
+    {
+      "CN_name": "野宫",
+      "Global_name": "Nonomi",
+      "JP_name": "ノノミ"
+    },
+    {
+      "CN_name": "莲见",
+      "Global_name": "Hasumi",
+      "JP_name": "ハスミ"
+    },
+    {
+      "CN_name": "明里",
+      "Global_name": "Akari",
+      "JP_name": "アカリ"
+    },
+    {
+      "CN_name": "千世",
+      "Global_name": "Chise",
+      "JP_name": "チセ"
+    },
+    {
+      "CN_name": "茜",
+      "Global_name": "Akane",
+      "JP_name": "アカネ"
+    },
+    {
+      "CN_name": "鹤城",
+      "Global_name": "Tsurugi",
+      "JP_name": "ツルギ"
+    },
+    {
+      "CN_name": "堇",
+      "Global_name": "Sumire",
+      "JP_name": "スミレ"
+    },
+    {
+      "CN_name": "瞬",
+      "Global_name": "Shun",
+      "JP_name": "シュン"
+    },
+    {
+      "CN_name": "白子",
+      "Global_name": "Shiroko",
+      "JP_name": "シロコ"
+    },
+    {
+      "CN_name": "泉",
+      "Global_name": "Izumi",
+      "JP_name": "イズミ"
+    },
+    {
+      "CN_name": "妮露",
+      "Global_name": "Neru",
+      "JP_name": "ネル"
+    },
+    {
+      "CN_name": "真纪",
+      "Global_name": "Maki",
+      "JP_name": "マキ"
+    },
+    {
+      "CN_name": "真纪(露营)",
+      "Global_name": "Maki (Camp)",
+      "JP_name": "マキ(キャンプ)"
+    },
+    {
+      "CN_name": "伊织",
+      "Global_name": "Iori",
+      "JP_name": "イオリ"
+    },
+    {
+      "CN_name": "星野",
+      "Global_name": "Hoshino",
+      "JP_name": "ホシノ"
+    },
+    {
+      "CN_name": "日奈",
+      "Global_name": "Hina",
+      "JP_name": "ヒナ"
+    },
+    {
+      "CN_name": "日富美",
+      "Global_name": "Hifumi",
+      "JP_name": "ヒフミ"
+    },
+    {
+      "CN_name": "晴奈",
+      "Global_name": "Haruna",
+      "JP_name": "ハルナ"
+    },
+    {
+      "CN_name": "艾米",
+      "Global_name": "Eimi",
+      "JP_name": "エイミ"
+    },
+    {
+      "CN_name": "爱露",
+      "Global_name": "Aru",
+      "JP_name": "アル"
+    },
+    {
+      "CN_name": "丽情",
+      "Global_name": "Reijo",
+      "JP_name": "レイジョ"
+    },
+    {
+      "CN_name": "莉音",
+      "Global_name": "Rio",
+      "JP_name": "リオ"
+    },
+    {
+      "CN_name": "千明",
+      "Global_name": "Chiaki",
+      "JP_name": "チアキ"
+    },
+    {
+      "CN_name": "青叶",
+      "Global_name": "Aoba",
+      "JP_name": "アオバ"
+    },
+    {
+      "CN_name": "巴(旗袍)",
+      "Global_name": "Tomoe (Qipao)",
+      "JP_name": "トモエ(チーパオ)"
+    },
+    {
+      "CN_name": "妃咲",
+      "Global_name": "Kisaki",
+      "JP_name": "キサキ"
+    },
+    {
+      "CN_name": "玛丽(偶像)",
+      "Global_name": "Mari (Pop Idol)",
+      "JP_name": "マリー(アイドル)"
+    },
+    {
+      "CN_name": "美祢(偶像)",
+      "Global_name": "Mine (Pop Idol)",
+      "JP_name": "ミネ(アイドル)"
+    },
+    {
+      "CN_name": "皋月",
+      "Global_name": "Satsuki",
+      "JP_name": "サツキ"
+    },
+    {
+      "CN_name": "优香(睡衣)",
+      "Global_name": "Yuuka (Pajamas)",
+      "JP_name": "ユウカ(パジャマ)"
+    },
+    {
+      "CN_name": "圣娅",
+      "Global_name": "Seia",
+      "JP_name": "セイア"
+    },
+    {
+      "CN_name": "濑名(便服)",
+      "Global_name": "Sena (Casual)",
+      "JP_name": "セナ(私服)"
+    },
+    {
+      "CN_name": "朱莉(打工)",
+      "Global_name": "Juri (Part-Timer)",
+      "JP_name": "ジュリ(アルバイト)"
+    },
+    {
+      "CN_name": "泉(正月)",
+      "Global_name": "Izumi (New Year)",
+      "JP_name": "イズミ(正月)"
+    },
+    {
+      "CN_name": "丽",
+      "Global_name": "Rei",
+      "JP_name": "レイ"
+    },
+    {
+      "CN_name": "堇(打工)",
+      "Global_name": "Sumire (Part-Timer)",
+      "JP_name": "スミレ(アルバイト)"
+    },
+    {
+      "CN_name": "纱织(礼服)",
+      "Global_name": "Saori (Dress)",
+      "JP_name": "サオリ(ドレス)"
+    },
+    {
+      "CN_name": "光",
+      "Global_name": "Hikari",
+      "JP_name": "ヒカリ"
+    },
+    {
+      "CN_name": "望",
+      "Global_name": "Nozomi",
+      "JP_name": "ノゾミ"
+    },
+    {
+      "CN_name": "菲娜(导游)",
+      "Global_name": "Pina (Guide)",
+      "JP_name": "フィーナ(ガイド)"
+    },
+    {
+      "CN_name": "名草",
+      "Global_name": "Nagusa",
+      "JP_name": "ナグサ"
+    },
+    {
+      "CN_name": "尼娅",
+      "Global_name": "Niya",
+      "JP_name": "ニヤ"
+    },
+    {
+      "CN_name": "夏(乐队)",
+      "Global_name": "Natsu (Band)",
+      "JP_name": "ナツ(バンド)"
+    },
+    {
+      "CN_name": "紫(泳装)",
+      "Global_name": "Yukari (Swimsuit)",
+      "JP_name": "ユカリ(水着)"
+    },
+    {
+      "CN_name": "莲华(泳装)",
+      "Global_name": "Renge (Swimsuit)",
+      "JP_name": "レンゲ(水着)"
+    },
+    {
+      "CN_name": "桔梗(泳装)",
+      "Global_name": "Kikyou (Swimsuit)",
+      "JP_name": "キキョウ(水着)"
+    },
+    {
+      "CN_name": "圣娅(泳装)",
+      "Global_name": "Seia (Swimsuit)",
+      "JP_name": "セイア(水着)"
+    },
+    {
+      "CN_name": "莲见(泳装)",
+      "Global_name": "Hasumi (Swimsuit)",
+      "JP_name": "ハスミ(水着)"
+    },
+    {
+      "CN_name": "一花(泳装)",
+      "Global_name": "Ichika (Swimsuit)",
+      "JP_name": "イチカ(水着)"
+    },
+    {
+      "CN_name": "渚(泳装)",
+      "Global_name": "Nagisa (Swimsuit)",
+      "JP_name": "ナギサ(水着)"
+    },
+    {
+      "CN_name": "未花(泳装)",
+      "Global_name": "Mika (Swimsuit)",
+      "JP_name": "ミカ(水着)"
+    },
+    {
+      "CN_name": "绘里",
+      "Global_name": "Eri",
+      "JP_name": "エリ"
+    },
+    {
+      "CN_name": "庚",
+      "Global_name": "Kanoe",
+      "JP_name": "カノエ"
+    },
+    {
+      "CN_name": "美咲(泳装)",
+      "Global_name": "Misaki (Swimsuit)",
+      "JP_name": "ミサキ(水着)"
+    },
+    {
+      "CN_name": "美代",
+      "Global_name": "Miyo",
+      "JP_name": "ミヨ"
+    },
+    {
+      "CN_name": "冬",
+      "Global_name": "Fuyu",
+      "JP_name": "フユ"
+    },
+    {
+      "CN_name": "律",
+      "Global_name": "Ritsu",
+      "JP_name": "リツ"
+    },
+    {
+      "CN_name": "玲纱(魔法)",
+      "Global_name": "Reisa (Magical)",
+      "JP_name": "レイサ(マジカル)"
+    },
+    {
+      "CN_name": "铃美(魔法)",
+      "Global_name": "Suzumi (Magical)",
+      "JP_name": "スズミ(マジカル)"
+    },
+    {
+      "CN_name": "兰舞",
+      "Global_name": "Rabu",
+      "JP_name": "ラブ"
+    },
+    {
+      "CN_name": "昴",
+      "Global_name": "Subaru",
+      "JP_name": "スバル"
+    },
+    {
+      "CN_name": "贵音",
+      "Global_name": "Takane",
+      "JP_name": "タカネ"
+    },
+    {
+      "CN_name": "八云",
+      "Global_name": "Yakumo",
+      "JP_name": "ヤクモ"
+    },
+    {
+      "CN_name": "月咏(礼服)",
+      "Global_name": "Tsukuyo (Dress)",
+      "JP_name": "ツクヨ(ドレス)"
+    },
+    {
+      "CN_name": "满(礼服)",
+      "Global_name": "Michiru (Dress)",
+      "JP_name": "ミチル(ドレス)"
+    },
+    {
+      "CN_name": "莉音(武装)",
+      "Global_name": "Rio (Armed)",
+      "JP_name": "リオ(臨戦)"
+    },
+    {
+      "CN_name": "时(武装)",
+      "Global_name": "Toki (Armed)",
+      "JP_name": "トキ(臨戦)"
+    },
+    {
+      "CN_name": "日鞠(武装)",
+      "Global_name": "Himari (Armed)",
+      "JP_name": "ヒマリ(臨戦)"
+    },
+    {
+      "CN_name": "爱丽丝(武装)",
+      "Global_name": "Aris (Armed)",
+      "JP_name": "アリス(臨戦)"
+    },
+    {
+      "CN_name": "柯伊",
+      "Global_name": "Kei",
+      "JP_name": "ケイ"
+    },
+    {
+      "CN_name": "艾米(武装)",
+      "Global_name": "Eimi (Armed)",
+      "JP_name": "エイミ(臨戦)"
+    },
+    {
+      "CN_name": "柚子(武装)",
+      "Global_name": "Yuzu (Armed)",
+      "JP_name": "ユズ(臨戦)"
+    },
+    {
+      "CN_name": "小雪(睡衣)",
+      "Global_name": "Koyuki (Pajamas)",
+      "JP_name": "コユキ(パジャマ)"
+    },
+    {
+      "CN_name": "木乃香",
+      "Global_name": "Konoka",
+      "JP_name": "コノカ"
+    },
+    {
+      "CN_name": "丽奈",
+      "Global_name": "Rena",
+      "JP_name": "レナ"
+    },
+    {
+      "CN_name": "茜(制服)",
+      "Global_name": "Akane (School)",
+      "JP_name": "アカネ(制服)"
+    },
+    {
+      "CN_name": "妮可",
+      "Global_name": "Niko",
+      "JP_name": "ニコ"
+    },
+    {
+      "CN_name": "胡桃",
+      "Global_name": "Kurumi",
+      "JP_name": "クルミ"
+    },
+    {
+      "CN_name": "御伽",
+      "Global_name": "Otogi",
+      "JP_name": "オトギ"
+    },
+    {
+      "CN_name": "绘梨香",
+      "Global_name": "Erika",
+      "JP_name": "エリカ"
+    },
+    {
+      "CN_name": "春香(礼服)",
+      "Global_name": "Haruka (Dress)",
+      "JP_name": "ハルカ(ドレス)"
+    },
+    {
+      "CN_name": "睦月(礼服)",
+      "Global_name": "Mutsuki (Dress)",
+      "JP_name": "ムツキ(ドレス)"
+    },
+    {
+      "CN_name": "名草(泳装)",
+      "Global_name": "Nagusa (Swimsuit)",
+      "JP_name": "ナグサ(水着)"
+    },
+    {
+      "CN_name": "瞬(泳装)",
+      "Global_name": "Shun (Swimsuit)",
+      "JP_name": "シュン(水着)"
+    },
+    {
+      "CN_name": "妃咲(泳装)",
+      "Global_name": "Kisaki (Swimsuit)",
+      "JP_name": "キサキ(水着)"
+    },
+    {
+      "CN_name": "伊吹(泳装)",
+      "Global_name": "Ibuki (Swimsuit)",
+      "JP_name": "イブキ(水着)"
+    },
+    {
+      "CN_name": "伊吕波(泳装)",
+      "Global_name": "Iroha (Swimsuit)",
+      "JP_name": "イロハ(水着)"
+    },
+    {
+      "CN_name": "皋月(泳装)",
+      "Global_name": "Satsuki (Swimsuit)",
+      "JP_name": "サツキ(水着)"
+    },
+    {
+      "CN_name": "千明(泳装)",
+      "Global_name": "Chiaki (Swimsuit)",
+      "JP_name": "チアキ(水着)"
+    },
+    {
+      "CN_name": "真琴(泳装)",
+      "Global_name": "Makoto (Swimsuit)",
+      "JP_name": "マコト(水着)"
+    }
+  ]
+}
