@@ -14,9 +14,15 @@ Hugging Face and never needs a Hugging Face token.
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install -r requirements-training.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements-torch-cu124.txt
 .\.venv\Scripts\hf.exe auth login
 .\.venv\Scripts\hf.exe auth whoami
 ```
+
+The CUDA 12.4 requirements are the default for GPU training. For a CPU-only
+environment, install `requirements-torch-cpu.txt` instead. Keeping the PyTorch
+wheel source separate prevents a normal PyPI install from silently replacing
+the CUDA build with a CPU build.
 
 Download the pinned private dataset:
 
